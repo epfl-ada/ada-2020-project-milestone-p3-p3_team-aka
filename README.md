@@ -75,6 +75,7 @@ Karim and Anas will be in charge of writing the report, while Ahmed will work on
 
 ### Questions for TAs (optional)
 We have an idea on how to download data for each month. However, each month consists of 750 files, containing all sorts of information. Any advice on how to optimize our iterations (library, etc,..)? 
+
 What methods of discontinuous analysis are useful for the dataset extended until 2016? 
 
 

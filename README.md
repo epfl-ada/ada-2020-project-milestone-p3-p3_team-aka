@@ -49,18 +49,18 @@ Method of analysis:
 We will be applying the same interrupted time-series with segmented regression method on the newly acquired data: german articles and longer period of study.
 Depending on the results we obtain, we may resort to applying discontinuous analysis methods for the extended data in order to look for potential confounders / events.
 
-Proposed timeline:  
+### Proposed timeline:  
 *Week 1: Downloading, filtering and cleaning the data.
 *Week 2: Analysis and application of the methods.
 *Week 3: Interpretation of results, shooting of video and report.
 
-Organization within the team
+### Organization within the team
 Milestone 1: 04/ 12/ 2020 Data cleaned, filtered and loaded into a DataFrame.
 Milestone 2: 07/ 12/ 2020 Segmented regression applied on german articles and on extended english data.
 Milestone 3: 11/ 12/ 2020 Discontinuous analysis methods applied to extended data.
 Milestone 3: 18/ 12/ 2020 Report and video ready.
 
-Questions for TAs (optional)
+### Questions for TAs (optional)
 We have an idea on how to download data for each month. However, each month consists of 750 files, containing all sorts of information. Any advice on how to optimize our iterations (library, etc,..).
 
 

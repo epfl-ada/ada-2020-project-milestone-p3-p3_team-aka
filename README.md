@@ -50,15 +50,26 @@ We will be applying the same interrupted time-series with segmented regression m
 Depending on the results we obtain, we may resort to applying discontinuous analysis methods for the extended data in order to look for potential confounders / events.
 
 ### Proposed timeline:  
-*Week 1: Downloading, filtering and cleaning the data.
-*Week 2: Analysis and application of the methods.
-*Week 3: Interpretation of results, shooting of video and report.
+* Week 1: Downloading, filtering and cleaning the data.
+
+* Week 2: Analysis and application of the methods.
+
+* Week 3: Interpretation of results, shooting of video and report.
+
 
 ### Organization within the team
 Milestone 1: 04/ 12/ 2020 Data cleaned, filtered and loaded into a DataFrame.
 Milestone 2: 07/ 12/ 2020 Segmented regression applied on german articles and on extended english data.
 Milestone 3: 11/ 12/ 2020 Discontinuous analysis methods applied to extended data.
-Milestone 3: 18/ 12/ 2020 Report and video ready.
+Milestone 4: 18/ 12/ 2020 Report and video ready.
+
+* We will all take part in the data preprocessing step (Retrieving pageviews of the considered articles for the considered period).
+* Starting from week 2 and once we get the data cleaned in easily-handled dataframes, 
+    Karim will be in charge of implementing the ITS on the data of German wikipedia and testing the significance of the results. 
+    Anas will be responsible of applying the analysis on the extended datasets and generating plots and results.
+    Ahmed will be further investigating on possible confounders/events or hidden variables that were not taken into account. Some other statistical methods can be    applied to test the significance of these events on the analysis.
+* During week 3, 
+Karim and Anas will be in charge of writing the report, while Ahmed will work on recording the video.
 
 ### Questions for TAs (optional)
 We have an idea on how to download data for each month. However, each month consists of 750 files, containing all sorts of information. Any advice on how to optimize our iterations (library, etc,..).

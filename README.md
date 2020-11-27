@@ -3,23 +3,21 @@
 Chilling effects of the Snowden Revelations: a permanent and worldwide impact ? 
  
 ### Abstract:
-The author of the paper finds a statistically significant chilling effect of the Snowden
-revelations on the behaviour of people, namely a decrease in the number of views of privacy sensitive
-articles.  
-We propose to answer two other questions about this effect. First, is this effect permanent 
-or does the behaviour of people return to normal after some period. And secondly, did the revelations
-have an impact on the behaviour of people outside the US.
-We will start by extracting a larger dataset, both in period and language. Then we will run
-segmented regression analysis on the extended data twice. First for the German counterparts
-of the terrorism-related secondly. And second on an extended time period for the english articles.
 
+The paper explores the existence of a chilling effect on people's online behaviour due to the Snowden revelations.
+We propose to answer two additional questions about this effect. First, we study the long-term persistence
+of this effect. Secondly, we explore the possibility of a chilling effect happening outside the US.  
+
+The dataset used will contain the german counterparts of the terrorism-related articles. We will 
+apply similar analysis as in the paper on this dataset and study the trends pre and post revelations.
+We will also use segmented regression on the original english articles where the study period is extended until 2016.
 
 
 ### Research Questions:  
 
-1. Is the Chilling Effect found by the author in the paper permanent or at least long-term ?  
-   Did this behaviour perpetuate or did the chilling effect fade away ?
-   What are the possible confounders if we extend the analysis to a longer period ? 
+1. Is the Chilling Effect found by the author in the paper permanent ? 
+   Is there evidence of the effect fading away with time?   
+   Are there possible confounders if we extend the analysis to a longer period ? 
 2. Did the Snowden revelations affect behaviour of people outside the US?
    Precisely, is there a chilling effect on users of german Wikipedia?
 

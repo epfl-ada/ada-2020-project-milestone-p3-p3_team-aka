@@ -74,8 +74,8 @@ Milestone 4: 18/ 12/ 2020 Report and video ready.
 Karim and Anas will be in charge of writing the report, while Ahmed will work on recording the video.
 
 ### Questions for TAs (optional)
-We have an idea on how to download data for each month. However, each month consists of 750 files, containing all sorts of information. Any advice on how to optimize our iterations (library, etc,..).  
-What methods of discontinuous analysis are useful for the dataset extended until 2016.  
+We have an idea on how to download data for each month. However, each month consists of 750 files, containing all sorts of information. Any advice on how to optimize our iterations (library, etc,..)? 
+What methods of discontinuous analysis are useful for the dataset extended until 2016? 
 
 
 

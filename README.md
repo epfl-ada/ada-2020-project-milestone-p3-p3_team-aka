@@ -8,7 +8,7 @@ The paper explores the existence of a chilling effect on people's online behavio
 We propose to answer two additional questions about this effect. First, we study the long-term persistence
 of this effect. Secondly, we explore the possibility of a chilling effect happening outside the US.  
 
-The dataset used will contain the german counterparts of the terrorism-related articles. We will 
+The dataset used will contain the German counterparts of the terrorism-related articles. We will 
 apply similar analysis as in the paper on this dataset and study the trends pre and post revelations.
 We will also use segmented regression on the original english articles where the study period is extended until 2016.
 
@@ -19,7 +19,7 @@ We will also use segmented regression on the original english articles where the
    Is there evidence of the effect fading away with time?   
    Are there possible confounders if we extend the analysis to a longer period ? 
 2. Did the Snowden revelations affect behaviour of people outside the US?
-   Precisely, is there a chilling effect on users of german Wikipedia?
+   Precisely, is there a chilling effect on users of German Wikipedia?
 
 
 ### Proposed dataset:
@@ -39,13 +39,13 @@ However, the website has been down for a few days.
 In the case where https://www.stats.grok.se will be available again, it would be easier to get the pageviews from here, and use Wikimedia’s REST API: https://wikimedia.org/api/rest_v1/ to get the page views after July 2015.
 
 We will use the scripts provided with the available dataset of Cristian Cantoro of hourly pageview counts to have a monthly aggregate. Then, we will filter the dataset to have only interesting articles i.e privacy-sensitive ones. 
-After this, we need to filter for the specific pages and languages (english and german) we need. We will download the data from this source from 2012 through 2016. This may take some time and resources, as each month represents 24GB of data.
+After this, we need to filter for the specific pages and languages (English and German) we need. We will download the data from this source from 2012 through 2016. This may take some time and resources, as each month represents 24GB of data.
 
 We will consider data of a more extended period of time to test the hypothesis of long term chilling effects.
 
 
 **Method of analysis:**
-We will be applying the same interrupted time-series with segmented regression method on the newly acquired data: german articles and longer period of study.
+We will be applying the same interrupted time-series with segmented regression method on the newly acquired data: German articles and longer period of study.
 Depending on the results we obtain, we may resort to applying discontinuous analysis methods for the extended data in order to look for potential confounders / events.
 
 ### Proposed timeline:  
@@ -59,7 +59,7 @@ Depending on the results we obtain, we may resort to applying discontinuous anal
 ### Organization within the team
 Milestone 1: 04/ 12/ 2020 Data cleaned, filtered and loaded into a DataFrame.
 
-Milestone 2: 07/ 12/ 2020 Segmented regression applied on german articles and on extended english data.
+Milestone 2: 07/ 12/ 2020 Segmented regression applied on German articles and on extended english data.
 
 Milestone 3: 11/ 12/ 2020 Discontinuous analysis methods applied to extended data.
 

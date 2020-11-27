@@ -59,8 +59,11 @@ Depending on the results we obtain, we may resort to applying discontinuous anal
 
 ### Organization within the team
 Milestone 1: 04/ 12/ 2020 Data cleaned, filtered and loaded into a DataFrame.
+
 Milestone 2: 07/ 12/ 2020 Segmented regression applied on german articles and on extended english data.
+
 Milestone 3: 11/ 12/ 2020 Discontinuous analysis methods applied to extended data.
+
 Milestone 4: 18/ 12/ 2020 Report and video ready.
 
 * We will all take part in the data preprocessing step (Retrieving pageviews of the considered articles for the considered period).

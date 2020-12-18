@@ -48,14 +48,6 @@ We will consider data of a more extended period of time to test the hypothesis o
 We will be applying the same interrupted time-series with segmented regression method on the newly acquired data: German articles and longer period of study.
 Depending on the results we obtain, we may resort to applying discontinuous analysis methods for the extended data in order to look for potential confounders / events.
 
-### Proposed timeline:  
-* Week 1: Downloading, filtering and cleaning the data.
-
-* Week 2: Analysis and application of the methods.
-
-* Week 3: Interpretation of results, shooting of video and report.
-
-
 ### Organization within the team
 Milestone 1: 04/ 12/ 2020 Data cleaned, filtered and loaded into a DataFrame.
 

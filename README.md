@@ -1,6 +1,6 @@
 ### Title:
 
-Chilling effects of the Snowden Revelations: a permanent and worldwide impact ? 
+The Snowden Effect: Persistence and GeographicalReach
  
 ### Abstract:
 

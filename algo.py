@@ -22,7 +22,8 @@ def confounder_founder(data, start_end_window, start_inter_window):
                 relevant= prepare_data_for_regression_with_window(data, start,end,inter)
                 model = smf.ols('pageviews ~ time + C(intervention) + post_slope', data=relevant)
                 res = model.fit()
-                if res.rsquared>0.5:
+                pvalue_inter= res.pvalues[1]
+                if res.rsquared > 0.5 and pvalue_inter < 0.05 :
                     print("start at "+ str(start))
                     print("intervention at "+ str(inter))
                     print("end at "+ str(end))

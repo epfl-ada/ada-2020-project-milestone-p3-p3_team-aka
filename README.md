@@ -54,7 +54,7 @@ Milestone 4: 18/ 12/ 2020 Report and video ready.
 * We took part in the data preprocessing step (Retrieving pageviews of the considered articles for the considered period).
 * Starting from week 2 and once we get the data cleaned in easily-handled dataframes, 
  Karim was in charge of implementing the ITS on the data of German wikipedia and testing the significance of the results. 
- Anas was be responsible of applying the analysis on the extended datasets and generating plots and results.
+ Anas was responsible of applying the analysis on the extended datasets and generating plots and results.
  Ahmed further investigated on possible confounders/events or hidden variables that were not taken into account. He also took care of applying matching methods using Facebook inspired MUSE embeddings. 
 *Karim and Ahmed took care of writing the report while Anas concentrated on the pitch presentation.
 

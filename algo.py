@@ -1,4 +1,5 @@
-
+from prepare_regression import *
+import statsmodels.formula.api as smf
 
 #This function takes data , the minimum allowed window between the start and end of the period studied, the minum allowed window between the start and the intervention, fits the regression and returns important relevant events that can be confounders
 

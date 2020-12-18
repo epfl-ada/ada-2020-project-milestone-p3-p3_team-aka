@@ -35,40 +35,29 @@ https://github.com/CristianCantoro/pagecounts-download-tools
 
 **Data collection:**
 Initially, we wanted to get the pageview counts data from the same source as the paper : https://www.stats.grok.se
-However, the website has been down for a few days. 
-In the case where https://www.stats.grok.se will be available again, it would be easier to get the pageviews from here, and use Wikimedia’s REST API: https://wikimedia.org/api/rest_v1/ to get the page views after July 2015.
-
-We will use the scripts provided with the available dataset of Cristian Cantoro of hourly pageview counts to have a monthly aggregate. Then, we will filter the dataset to have only interesting articles i.e privacy-sensitive ones. 
-After this, we need to filter for the specific pages and languages (English and German) we need. We will download the data from this source from 2012 through 2016. This may take some time and resources, as each month represents 24GB of data.
-
-We will consider data of a more extended period of time to test the hypothesis of long term chilling effects.
+However, the website has been down for a few days. Unfortunately the website wasn't put online again so we had to use the REST API provided at http://petermeissner.de:8880/
 
 
 **Method of analysis:**
-We will be applying the same interrupted time-series with segmented regression method on the newly acquired data: German articles and longer period of study.
-Depending on the results we obtain, we may resort to applying discontinuous analysis methods for the extended data in order to look for potential confounders / events.
+We applied the same interrupted time-series with segmented regression scheme on the newly acquired data: German articles and longer period of study.
+
 
 ### Organization within the team
-Milestone 1: 04/ 12/ 2020 Data cleaned, filtered and loaded into a DataFrame.
+Week1: Data cleaned, filtered and loaded into a DataFrame.
 
-Milestone 2: 07/ 12/ 2020 Segmented regression applied on German articles and on extended english data.
+Week2: 07/ 12/ 2020 Segmented regression applied on German articles and on extended english data.
 
 Milestone 3: 11/ 12/ 2020 Discontinuous analysis methods applied to extended data.
 
 Milestone 4: 18/ 12/ 2020 Report and video ready.
 
-* We will all take part in the data preprocessing step (Retrieving pageviews of the considered articles for the considered period).
+* We took part in the data preprocessing step (Retrieving pageviews of the considered articles for the considered period).
 * Starting from week 2 and once we get the data cleaned in easily-handled dataframes, 
-    Karim will be in charge of implementing the ITS on the data of German wikipedia and testing the significance of the results. 
-    Anas will be responsible of applying the analysis on the extended datasets and generating plots and results.
-    Ahmed will be further investigating on possible confounders/events or hidden variables that were not taken into account. Some other statistical methods can be    applied to test the significance of these events on the analysis.
-* During week 3, 
-Karim and Anas will be in charge of writing the report, while Ahmed will work on recording the video.
+ Karim was in charge of implementing the ITS on the data of German wikipedia and testing the significance of the results. 
+ Anas was be responsible of applying the analysis on the extended datasets and generating plots and results.
+ Ahmed further investigated on possible confounders/events or hidden variables that were not taken into account. He also took care of applying matching methods using Facebook inspired MUSE embeddings. 
+*Karim and Ahmed took care of writing the report while Anas concentrated on the pitch presentation.
 
-### Questions for TAs (optional)
-We have an idea on how to download data for each month. However, each month consists of 750 files, containing all sorts of information. Any advice on how to optimize our iterations (library, etc,..)? 
-
-What methods of discontinuous analysis are useful for the dataset extended until 2016? 
 
 
 
